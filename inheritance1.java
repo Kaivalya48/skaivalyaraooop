@@ -32,7 +32,7 @@ class Sbi extends Bank{
 public class Test{
     public static void main(String args[]){
         Sbi a=new Sbi();
-        a.name("SAi");
+        a.name("Satya");
         a.bal(5000);
         a.rateofinterest(5000);
     }
