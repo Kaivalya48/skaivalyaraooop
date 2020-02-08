@@ -18,11 +18,11 @@ class Sbi implements in{
     
     
 }
-class Icic implements in{
+class Icici implements in{
     
     public void name(String n){
         System.out.println("*******************************");
-        System.out.println("WELCOME TO ICIC BANK ");
+        System.out.println("WELCOME TO ICICI BANK ");
         System.out.println("Hi "+ n);
     }
     public void balance(int bal){
@@ -37,10 +37,10 @@ class Icic implements in{
 public class Test{
     public static void main(String args[]){
         Sbi a=new Sbi();
-        a.name("SAi");
+        a.name("Satya");
         a.balance(5000);
         a.rateofinterest(5000);
-        Icic b=new Icic();
+        Icici b=new Icici();
         b.name("SAi");
         b.balance(5000);
         b.rateofinterest(5000);
